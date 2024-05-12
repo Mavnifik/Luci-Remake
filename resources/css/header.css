@@ -1,0 +1,84 @@
+header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.top-bar {
+  width: 100%;
+  background-color: #000000;
+  z-index: 3;
+  height: 6rem;
+  top: 0;
+}
+
+#container-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 5rem;
+}
+
+
+#container-top .img-slider {
+  width: 20rem;
+}
+
+#container-top .user-icon {
+  width: 50px;
+  margin-right: 3rem;
+  padding-top: 0.5rem;
+}
+
+.hello-sir{
+  display: flex;
+}
+
+#search-bar {
+  right: 5rem;
+  position: relative;
+  width: 400px;
+  padding: 10px;
+  border-radius: 20%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  padding-right: 40px; 
+}
+
+.search-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 18px;
+}
+
+.middle-bar {
+  width: 100%;
+  z-index: 3;
+  height: 4rem;
+  background-color: #8b0000;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  height: 100%;
+}
+
+.nav-bar ul a{
+  text-decoration: none;
+  color: whitesmoke;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  font-weight: 500;
+}
